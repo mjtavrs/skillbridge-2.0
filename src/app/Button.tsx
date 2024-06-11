@@ -2,7 +2,7 @@ import { ComponentProps } from 'react'
 import { tv, VariantProps } from 'tailwind-variants'
 
 const link = tv({
-  base: ['rounded-lg px-6 py-4 text-lg leading-6'],
+  base: ['rounded-lg px-6 py-4 text-lg font-medium leading-6 inline-block'],
 
   variants: {
     variant: {

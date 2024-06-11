@@ -39,7 +39,7 @@ function NavigationMenu() {
 
 export function Header() {
   return (
-    <header className="px-8 pt-5">
+    <header className="mx-8 mt-5 border-b border-skillbridge-white-95">
       <DiscountBanner />
       <div className="flex items-center justify-between px-32 py-6">
         <nav className="flex items-center gap-12">
