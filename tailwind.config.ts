@@ -30,6 +30,8 @@ const config: Config = {
       },
       gridTemplateColumns: {
         footerLinks: 'minmax(16rem, 1fr) minmax(16rem, 1fr) minmax(16rem, 1fr)',
+        twoColumnWrapper: '1fr 1fr',
+        threeColumnWrapper: '1fr 1fr 1fr',
       },
     },
   },
