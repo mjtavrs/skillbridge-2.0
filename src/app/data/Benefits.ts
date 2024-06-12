@@ -6,33 +6,33 @@ export const Benefits = [
       'Fit your coursework around your existing commitments and obligations.',
   },
   {
-    id: '01',
-    title: 'Flexible Learning Schedule',
+    id: '02',
+    title: 'Expert Instruction',
     description:
-      'Fit your coursework around your existing commitments and obligations.',
+      'Learn from industry experts who have hands-on experience in design and development.',
   },
   {
-    id: '01',
-    title: 'Flexible Learning Schedule',
+    id: '03',
+    title: 'Diverse Course Offerings',
     description:
-      'Fit your coursework around your existing commitments and obligations.',
+      'Explore a wide range of design and development courses covering various topics.',
   },
   {
-    id: '01',
-    title: 'Flexible Learning Schedule',
+    id: '04',
+    title: 'Updated Curriculum',
     description:
-      'Fit your coursework around your existing commitments and obligations.',
+      'Access courses with up-to-date content reflecting the latest trends and industry practices.',
   },
   {
-    id: '01',
-    title: 'Flexible Learning Schedule',
+    id: '05',
+    title: 'Practical Projects and Assignments',
     description:
-      'Fit your coursework around your existing commitments and obligations.',
+      'Develop a portfolio showcasing your skills and abilities to potential employers.',
   },
   {
-    id: '01',
-    title: 'Flexible Learning Schedule',
+    id: '06',
+    title: 'Interactive Learning Environment',
     description:
-      'Fit your coursework around your existing commitments and obligations.',
+      'Collaborate with fellow learners, exchanging ideas and feedback to enhance your understanding.',
   },
 ]

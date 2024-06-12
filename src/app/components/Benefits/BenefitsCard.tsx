@@ -18,8 +18,8 @@ export function BenefitsCard({ id, title, description }: BenefitsCardProps) {
         </p>
         <p className="text-lg text-skillbridge-grey-30">{description}</p>
       </div>
-      <div className="flex cursor-not-allowed justify-end">
-        <span className="rounded-lg border border-skillbridge-white-95 bg-skillbridge-white-99 p-5 text-skillbridge-orange-50">
+      <div className="flex justify-end">
+        <span className="cursor-not-allowed rounded-lg border border-skillbridge-white-95 bg-skillbridge-white-99 p-5 text-skillbridge-orange-50">
           <ArrowUpRight size={34} weight="bold" />
         </span>
       </div>
