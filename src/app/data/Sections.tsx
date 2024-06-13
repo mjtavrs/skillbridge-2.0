@@ -1,13 +1,13 @@
 import { BenefitsList } from '../components/Benefits/BenefitsList'
 import { CoursesCard } from '../components/Courses/CoursesCard'
+import { TestimonialsList } from '../components/Testimonials/TestimonialsList'
 import { Section } from '../interfaces/SectionProps'
 
 export const Sections: Section[] = [
   {
     id: '1',
     title: 'Benefits',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta similique magnam quod. Autem alias repellat adipisci possimus ducimus optio, repellendus soluta aperiam libero, excepturi dolorem deserunt, deleniti architecto aspernatur error.',
+    description: `Discover the advantages of choosing our online courses! Our programs are designed to provide you with a flexible, engaging, and high-quality learning experience. Whether you're looking to advance your career, learn a new skill, or pursue a passion, our courses offer numerous benefits to help you achieve your goals. Explore the key benefits of our online courses and see how they can transform your educational journey. Join a community of motivated learners and take the next step toward your success!`,
     url: '#',
     columnsVariant: 'threeColumns',
     children: <BenefitsList />,
@@ -24,11 +24,10 @@ export const Sections: Section[] = [
   {
     id: '3',
     title: 'Our Testimonials',
-    description:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis eveniet consectetur alias harum quas suscipit ut voluptatum rem, voluptatibus similique iusto voluptatem fugiat nostrum iure possimus laudantium repudiandae, magni reprehenderit.',
+    description: `Discover the success stories of our students! Explore our testimonials to read firsthand experiences and see how our online courses have transformed their learning journeys. Hear directly from our students about the quality of our courses, the expertise of our instructors, and the impact our programs have had on their careers and personal growth. Don't just take our word for it - let our students tell you why they chose us for their education. Read their testimonials and join our community of motivated learners!`,
     url: '#',
     columnsVariant: 'twoColumns',
-    children: <BenefitsList />,
+    children: <TestimonialsList />,
   },
   {
     id: '4',

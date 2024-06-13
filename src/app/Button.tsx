@@ -10,6 +10,7 @@ const link = tv({
     variant: {
       white: 'bg-white text-skillbridge-grey-15',
       orange: 'bg-skillbridge-orange-50 text-white',
+      grey: 'bg-skillbridge-white-97 border border-skillbridge-white-95 text-grey-15',
       transparent: 'bg-transparent text-skillbridge-grey-15',
     },
   },
