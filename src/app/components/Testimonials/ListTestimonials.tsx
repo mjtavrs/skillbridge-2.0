@@ -1,7 +1,7 @@
 import { Testimonials } from '@/app/data/Testimonials'
 import { TestimonialsCard } from './TestimonialsCard'
 
-export function TestimonialsList() {
+export function ListTestimonials() {
   return (
     <>
       {Testimonials.map((testimonial) => (

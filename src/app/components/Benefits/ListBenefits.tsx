@@ -1,7 +1,7 @@
 import { Benefits } from '@/app/data/Benefits'
 import { BenefitsCard } from './BenefitsCard'
 
-export function BenefitsList() {
+export function ListBenefits() {
   return (
     <>
       {Benefits.map((benefit) => (
