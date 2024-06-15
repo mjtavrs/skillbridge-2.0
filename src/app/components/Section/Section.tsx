@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 import { SectionHeader } from './SectionHeader'
-import { CardWrapper } from './CardsWrapper'
+import { CardsWrapper } from './CardsWrapper'
 
 interface SectionProps {
   title: string
@@ -20,7 +20,7 @@ export function Section({
   return (
     <section className="mx-40 space-y-20">
       <SectionHeader title={title} description={description} url={url} />
-      <CardWrapper variant={columnsVariant}>{children}</CardWrapper>
+      <CardsWrapper variant={columnsVariant}>{children}</CardsWrapper>
     </section>
   )
 }

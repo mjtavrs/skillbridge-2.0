@@ -14,6 +14,6 @@ const container = tv({
 
 export type LinkProps = ComponentProps<'div'> & VariantProps<typeof container>
 
-export function CardWrapper({ variant, ...props }: LinkProps) {
+export function CardsWrapper({ variant, ...props }: LinkProps) {
   return <div {...props} className={container({ variant })} />
 }
