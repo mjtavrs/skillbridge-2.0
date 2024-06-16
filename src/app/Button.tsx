@@ -9,6 +9,8 @@ const link = tv({
   variants: {
     variant: {
       white: 'bg-white text-skillbridge-grey-15 transition-colors duration-350',
+      whiteWithBorder:
+        'bg-white text-skillbridge-grey-15 border border-skillbridge-white-95 rounded-lg',
       orange:
         'bg-skillbridge-orange-50 text-white transition-colors duration-350',
       grey: 'bg-skillbridge-white-97 border border-skillbridge-white-95 text-grey-15',

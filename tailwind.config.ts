@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import plugin from 'tailwindcss/plugin'
 
 const config: Config = {
   content: ['./src/**/*.{ts,tsx}'],
@@ -32,9 +33,16 @@ const config: Config = {
         footerLinks: 'minmax(16rem, 1fr) minmax(16rem, 1fr) minmax(16rem, 1fr)',
         twoColumnWrapper: '1fr 1fr',
         threeColumnWrapper: '1fr 1fr 1fr',
+        faqSection: '25.5rem 1fr',
+        faqQuestion: '1fr 3.25rem',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addVariant }) {
+      addVariant('child', '& > *')
+      addVariant('child-hover', '& > *:hover')
+    }),
+  ],
 }
 export default config
