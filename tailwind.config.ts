@@ -35,6 +35,10 @@ const config: Config = {
         threeColumnWrapper: '1fr 1fr 1fr',
         faqSection: '25.5rem 1fr',
         faqQuestion: '1fr 3.25rem',
+        pageSection: '1fr 1fr',
+      },
+      brightness: {
+        '80': '.8',
       },
     },
   },

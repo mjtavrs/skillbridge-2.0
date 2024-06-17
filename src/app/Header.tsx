@@ -22,13 +22,13 @@ function NavigationMenu() {
         <a href="#">Home</a>
       </li>
       <li className="rounded-lg px-6 py-4">
-        <a href="#">Courses</a>
+        <a href="/courses">Courses</a>
       </li>
       <li className="rounded-lg px-6 py-4">
         <a href="#">About Us</a>
       </li>
       <li className="rounded-lg px-6 py-4">
-        <a href="#">Pricing</a>
+        <a href="/pricing">Pricing</a>
       </li>
       <li className="rounded-lg px-6 py-4">
         <a href="#">Contact</a>
