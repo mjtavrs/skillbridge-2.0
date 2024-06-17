@@ -1,7 +1,7 @@
 'use client'
 
 import { Button } from '@/app/Button'
-import { FaqQuestionsContainer } from './FaqQuestionsContainer'
+import { FaqQuestionsContainer } from './FaqQuestions/FaqQuestionsContainer'
 
 export function FaqSection() {
   return (
