@@ -36,6 +36,8 @@ const config: Config = {
         faqSection: '25.5rem 1fr',
         faqQuestion: '1fr 3.25rem',
         pageSection: '1fr 1fr',
+        courseInfo: '80.375rem 1fr',
+        curriculumSection: '1fr 1fr 1fr 1fr 1fr',
       },
       brightness: {
         '80': '.8',
