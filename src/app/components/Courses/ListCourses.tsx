@@ -1,10 +1,10 @@
-import { Courses } from '@/app/data/Courses'
+import { CoursesList } from '@/app/data/CoursesList'
 import { CoursesCard } from './CoursesCard'
 
 export function ListCourses() {
   return (
     <>
-      {Courses.map((course) => (
+      {CoursesList.map((course) => (
         <CoursesCard
           key={course.id}
           cover={course.cover}

@@ -1,4 +1,4 @@
-export const Courses = [
+export const CoursesList = [
   {
     id: '1',
     cover: '/assets/webp/courses/webDesignFundamentals/cover.webp',
@@ -7,8 +7,18 @@ export const Courses = [
     title: 'Web Design Fundamentals',
     description: `Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.`,
     url: '#',
-    pictures: ['', '', ''],
-    curriculum: ['', '', '', '', ''],
+    pictures: [
+      '/assets/webp/courses/webDesignFundamentals/1.webp',
+      '/assets/webp/courses/webDesignFundamentals/2.webp',
+      '/assets/webp/courses/webDesignFundamentals/3.webp',
+    ],
+    curriculum: [
+      'Introduction to HTML',
+      'Styling with CSS',
+      'Introduction to Responsive Design',
+      'Design Principles for Web',
+      'Building a Basic Website',
+    ],
   },
   {
     id: '2',
@@ -18,8 +28,18 @@ export const Courses = [
     title: 'UI/UX Design',
     description: `Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques.`,
     url: '#',
-    pictures: ['', '', ''],
-    curriculum: ['', '', '', '', ''],
+    pictures: [
+      '/assets/webp/courses/uiUxDesign/1.webp',
+      '/assets/webp/courses/uiUxDesign/2.webp',
+      '/assets/webp/courses/uiUxDesign/3.webp',
+    ],
+    curriculum: [
+      'Introduction to UI/UX Design',
+      'User Research and Personas',
+      'Wireframing and Prototyping',
+      'Visual Design and Branding',
+      'Usability Testing and Iteration',
+    ],
   },
   {
     id: '3',
@@ -29,8 +49,18 @@ export const Courses = [
     title: 'Mobile App Development',
     description: `Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin.`,
     url: '#',
-    pictures: ['', '', ''],
-    curriculum: ['', '', '', '', ''],
+    pictures: [
+      '/assets/webp/courses/mobileAppDevelopment/1.webp',
+      '/assets/webp/courses/mobileAppDevelopment/2.webp',
+      '/assets/webp/courses/mobileAppDevelopment/3.webp',
+    ],
+    curriculum: [
+      'Introduction to Mobile App Development',
+      'Fundamentals of Swift Programming (iOS)',
+      'Fundamentals of Kotlin Programming (Android)',
+      'Building User Interfaces',
+      'App Deployment and Testing',
+    ],
   },
   {
     id: '4',
@@ -40,8 +70,18 @@ export const Courses = [
     title: 'Graphic Design for Beginners',
     description: `Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media.`,
     url: '#',
-    pictures: ['', '', ''],
-    curriculum: ['', '', '', '', ''],
+    pictures: [
+      '/assets/webp/courses/graphicDesignForBeginners/1.webp',
+      '/assets/webp/courses/graphicDesignForBeginners/2.webp',
+      '/assets/webp/courses/graphicDesignForBeginners/3.webp',
+    ],
+    curriculum: [
+      'Introduction to Graphic Design',
+      'Typography and Color Theory',
+      'Layout Design and Composition',
+      'Image Editing and Manipulation',
+      'Designing for Print and Digital Media',
+    ],
   },
   {
     id: '5',
@@ -51,8 +91,18 @@ export const Courses = [
     title: 'Front-End Web Development',
     description: `Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites.`,
     url: '#',
-    pictures: ['', '', ''],
-    curriculum: ['', '', '', '', ''],
+    pictures: [
+      '/assets/webp/courses/frontEndWebDevelopment/1.webp',
+      '/assets/webp/courses/frontEndWebDevelopment/2.webp',
+      '/assets/webp/courses/frontEndWebDevelopment/3.webp',
+    ],
+    curriculum: [
+      'HTML Fundamentals',
+      'CSS Styling and Layouts',
+      'JavaScript Basics',
+      'Building Responsive Websites',
+      'Introduction to Bootstrap and React',
+    ],
   },
   {
     id: '6',
@@ -63,6 +113,6 @@ export const Courses = [
     description: `Take your JavaScript skills to the next level. Explore advanced concepts like closures, prototypes, asynchronous programming, and ES6 features. Build complex applications with confidence.`,
     url: '#',
     pictures: ['', '', ''],
-    curriculum: ['', '', '', '', ''],
+    curriculum: ['We are currently working on this curriculum, come back soon'],
   },
 ]
