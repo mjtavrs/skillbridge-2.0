@@ -1,18 +1,28 @@
-import { ExampleClassesList } from '@/app/data/ExampleClassesList'
 import { ListLessons } from './Lessons/ListLessons'
+import { Lesson } from '@/app/interfaces/LessonProps'
 
 // the articles must be listed using a map so the number os the ExampleClassesList can be changed dynamically
 
-export function ClassItemCardContainer() {
+interface ClassItemCardContainerProps {
+  classNumber: string
+  className: string
+  lessons: Lesson[]
+}
+
+export function ClassItemCardContainer({
+  classNumber,
+  className,
+  lessons,
+}: ClassItemCardContainerProps) {
   return (
     <article className="space-y-12 rounded-xl bg-white p-12">
       <p className="text-right text-7xl font-bold text-skillbridge-grey-15">
-        01
+        0{classNumber}
       </p>
       <p className="text-2xl font-semibold text-skillbridge-grey-20">
-        Introduction to UI/UX Design
+        {className}
       </p>
-      <ListLessons lessons={ExampleClassesList[0].lessons} />
+      <ListLessons lessons={lessons} />
     </article>
   )
 }

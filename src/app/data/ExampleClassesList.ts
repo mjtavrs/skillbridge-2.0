@@ -22,15 +22,15 @@ export const ExampleClassesList = [
     classTitle: 'User Research and Analysis',
     lessons: [
       {
-        title: '',
+        title: 'Conducting User Research and Interviews',
         duration: '1 Hour',
       },
       {
-        title: '',
+        title: 'Analyzing User Needs and Behavior',
         duration: '1 Hour',
       },
       {
-        title: '',
+        title: 'Creating User Personas and Scenarios',
         duration: '45 Minutes',
       },
     ],
@@ -40,15 +40,15 @@ export const ExampleClassesList = [
     classTitle: 'Wireframing and Prototyping',
     lessons: [
       {
-        title: '',
+        title: 'Introduction to Wireframing Tools and Techniques',
         duration: '1 Hour',
       },
       {
-        title: '',
+        title: 'Creating Low-Fidelity Wireframes',
         duration: '1 Hour',
       },
       {
-        title: '',
+        title: 'Prototyping and Interactive Mockups',
         duration: '1 Hour',
       },
     ],
@@ -58,15 +58,15 @@ export const ExampleClassesList = [
     classTitle: 'Visual Design and Branding',
     lessons: [
       {
-        title: '',
+        title: 'Color Theory and Typography in UI Design',
         duration: '1 Hour',
       },
       {
-        title: '',
+        title: 'Visual Hierarchy and Layout Design',
         duration: '1 Hour',
       },
       {
-        title: '',
+        title: 'Creating a Strong Brand Identity',
         duration: '45 Minutes',
       },
     ],
@@ -76,15 +76,15 @@ export const ExampleClassesList = [
     classTitle: 'Usability Testing and Iteration',
     lessons: [
       {
-        title: '',
+        title: 'Usability Testing Methods and Techniques',
         duration: '1 Hour',
       },
       {
-        title: '',
+        title: 'Analyzing Usability Test Results',
         duration: '45 Minutes',
       },
       {
-        title: '',
+        title: 'Iterating and Improving UX Designs',
         duration: '45 Minutes',
       },
     ],
