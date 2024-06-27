@@ -24,8 +24,8 @@ export function TestimonialsCard({
           <div className="relative h-14 w-14">
             <Image
               src={userProfilePictureUrl}
-              layout="fill"
-              objectFit="cover"
+              fill={true}
+              style={{ objectFit: 'cover' }}
               alt=""
               quality={75}
               className="rounded-lg"

@@ -1,5 +1,10 @@
+import { Metadata } from 'next'
 import { PageSection } from '../PageSection'
 import { ListCoursesInfos } from '../components/CoursesInfo/ListCoursesInfos'
+
+export const metadata: Metadata = {
+  title: 'Skillbridge • Courses',
+}
 
 export default function Courses() {
   return (

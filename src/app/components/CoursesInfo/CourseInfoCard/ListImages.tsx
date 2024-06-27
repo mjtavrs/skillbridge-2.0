@@ -20,10 +20,10 @@ export function ListImages({ imageList }: ListImagesProps) {
         <ImageContainer key="">
           <Image
             src={image}
-            layout="fill"
-            objectFit="cover"
+            fill={true}
+            style={{ objectFit: 'cover' }}
             alt=""
-            quality={75}
+            quality={80}
             className="rounded-lg"
           />
         </ImageContainer>

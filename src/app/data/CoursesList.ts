@@ -104,15 +104,4 @@ export const CoursesList = [
       'Introduction to Bootstrap and React',
     ],
   },
-  {
-    id: '6',
-    cover: '/assets/webp/courses/advancedJavascript/cover.webp',
-    tags: ['6 Weeks', 'Advanced'],
-    author: 'Jennifer Wilson',
-    title: 'Advanced JavaScript',
-    description: `Take your JavaScript skills to the next level. Explore advanced concepts like closures, prototypes, asynchronous programming, and ES6 features. Build complex applications with confidence.`,
-    url: '#',
-    pictures: ['', '', ''],
-    curriculum: ['We are currently working on this curriculum, come back soon'],
-  },
 ]

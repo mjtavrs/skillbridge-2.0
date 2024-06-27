@@ -24,10 +24,10 @@ export function CoursesCard({
       <div className="relative h-96">
         <Image
           src={cover}
-          layout="fill"
-          objectFit="cover"
+          fill={true}
+          style={{ objectFit: 'cover' }}
           alt=""
-          quality={80}
+          quality={100}
           className="rounded-lg"
         />
       </div>

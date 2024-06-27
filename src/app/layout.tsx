@@ -1,4 +1,3 @@
-import type { Metadata } from 'next'
 // eslint-disable-next-line
 import { Be_Vietnam_Pro } from 'next/font/google'
 import './globals.css'
@@ -9,10 +8,6 @@ const beVietnamPro = Be_Vietnam_Pro({
   weight: ['400', '500', '600', '700'],
   subsets: ['latin'],
 })
-
-export const metadata: Metadata = {
-  title: 'Skillbridge',
-}
 
 export default function RootLayout({
   children,
