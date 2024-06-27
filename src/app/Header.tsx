@@ -25,7 +25,7 @@ function NavigationMenu() {
         <a href="/courses">Courses</a>
       </li>
       <li className="rounded-lg px-6 py-4">
-        <a href="#">About Us</a>
+        <a href="/about-us">About Us</a>
       </li>
       <li className="rounded-lg px-6 py-4">
         <a href="/pricing">Pricing</a>
