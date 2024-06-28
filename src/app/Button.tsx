@@ -13,6 +13,8 @@ const link = tv({
         'bg-white text-skillbridge-grey-15 border border-skillbridge-white-95 rounded-lg',
       orange:
         'bg-skillbridge-orange-50 text-white transition-colors duration-350',
+      orangeBlock:
+        'bg-skillbridge-orange-50 text-white transition-colors duration-350 block text-center',
       grey: 'bg-skillbridge-white-97 border border-skillbridge-white-95 text-grey-15',
       greyBlock:
         'bg-skillbridge-white-97 border border-skillbridge-white-95 text-grey-15 block text-center',

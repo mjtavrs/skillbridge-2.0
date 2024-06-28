@@ -38,6 +38,7 @@ const config: Config = {
         pageSection: '1fr 1fr',
         courseInfo: '80.375rem 1fr',
         curriculumSection: '1fr 1fr 1fr 1fr 1fr',
+        loginAndSignUpSection: '1fr minmax(22rem, 41.25rem)',
       },
       brightness: {
         '80': '.8',
