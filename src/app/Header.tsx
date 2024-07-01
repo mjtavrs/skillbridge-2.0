@@ -47,10 +47,10 @@ export function Header() {
           <NavigationMenu />
         </nav>
         <div>
-          <Button href="#" variant="transparent">
+          <Button href="/sign-up" variant="transparent">
             Sign Up
           </Button>
-          <Button href="#" variant="orange">
+          <Button href="/login" variant="orange">
             Login
           </Button>
         </div>
