@@ -5,7 +5,7 @@ interface UsedForm {
   formType: FormTypes
 }
 
-export function UsedForm({ formType }: UsedForm) {
+export function LoadForm({ formType }: UsedForm) {
   return (
     <>
       {formType === 'login' && <LoginForm />}

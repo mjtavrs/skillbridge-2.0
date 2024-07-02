@@ -31,7 +31,7 @@ function NavigationMenu() {
         <a href="/pricing">Pricing</a>
       </li>
       <li className="rounded-lg px-6 py-4">
-        <a href="#">Contact</a>
+        <a href="/contact">Contact</a>
       </li>
     </ul>
   )
