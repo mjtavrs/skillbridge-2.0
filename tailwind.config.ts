@@ -45,6 +45,9 @@ const config: Config = {
         '80': '.8',
       },
     },
+    screens: {
+      xl: { max: '1440px' },
+    },
   },
   plugins: [
     plugin(function ({ addVariant }) {

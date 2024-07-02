@@ -3,7 +3,7 @@ import { tv, VariantProps } from 'tailwind-variants'
 
 const link = tv({
   base: [
-    'rounded-lg px-6 py-4 text-lg font-medium leading-6 inline-block h-fit cursor-pointer',
+    'rounded-lg px-6 py-4 xl:px-5 text-lg xl:text-sm font-medium leading-6 inline-block h-fit cursor-pointer',
   ],
 
   variants: {

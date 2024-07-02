@@ -14,9 +14,10 @@ export default function Home() {
     <>
       <Hero />
       <Video coverImage="/assets/webp/homeVideoCover.webp" />
-      <div className="space-y-24 py-36">
+      <div className="space-y-24 py-36 xl:py-24">
         <SectionsList />
         <PricingSection />
+        {/* Needs to change the size of the padding inside each question container */}
         <FaqSection />
       </div>
     </>

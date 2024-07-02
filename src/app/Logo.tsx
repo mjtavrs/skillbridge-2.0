@@ -1,8 +1,25 @@
+'use client'
+
+import { useEffect, useState } from 'react'
+
 export function Logo() {
+  const [logoSize, setLogoSize] = useState(54)
+
+  useEffect(() => {
+    const updateLogoSize = () => {
+      setLogoSize(window.innerWidth > 1440 ? 54 : 44)
+    }
+
+    updateLogoSize()
+    window.addEventListener('resize', updateLogoSize)
+
+    return () => window.removeEventListener('resize', updateLogoSize)
+  }, [])
+
   return (
     <svg
-      width={55}
-      height={54}
+      width={logoSize}
+      height={logoSize}
       viewBox="0 0 55 54"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

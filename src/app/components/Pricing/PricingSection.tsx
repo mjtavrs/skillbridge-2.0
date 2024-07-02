@@ -4,7 +4,7 @@ import { PricingHeader } from './PricingHeader'
 
 export function PricingSection() {
   return (
-    <section className="mx-40 space-y-20">
+    <section className="mx-40 space-y-20 xl:mx-14">
       <PricingHeader />
       <div className="rounded-xl bg-white p-20">
         <CardsWrapper variant="twoColumns">

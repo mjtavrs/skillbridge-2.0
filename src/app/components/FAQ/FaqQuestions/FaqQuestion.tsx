@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import * as Accordion from '@radix-ui/react-accordion'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ArrowRight, Plus } from '@phosphor-icons/react/dist/ssr'
@@ -20,6 +20,18 @@ export function FaqQuestion({
   answerUrl,
 }: FaqQuestionProps) {
   const [openItems, setOpenItems] = useState<string[]>([])
+  const [iconSize, setIconSize] = useState(28)
+
+  useEffect(() => {
+    const updateIconSize = () => {
+      setIconSize(window.innerWidth > 1440 ? 28 : 24)
+    }
+
+    updateIconSize()
+    window.addEventListener('resize', updateIconSize)
+
+    return () => window.removeEventListener('resize', updateIconSize)
+  }, [])
 
   const handleToggle = (value: string) => {
     setOpenItems((prev) =>
@@ -32,17 +44,17 @@ export function FaqQuestion({
   return (
     <Accordion.Root
       type="multiple"
-      className="rounded-xl border border-skillbridge-white-95 p-8"
+      className="rounded-xl border border-skillbridge-white-95 p-14 xl:p-10"
       onValueChange={(values: string[]) => setOpenItems(values)}
     >
       <Accordion.Item value="question">
         <Accordion.Header className="grid grid-cols-faqQuestion items-center gap-8 text-skillbridge-grey-15 data-[state=open]:border-b data-[state=open]:border-skillbridge-white-95 data-[state=open]:pb-6">
-          <p className="text-xl font-medium">{question}</p>
+          <p className="text-xl font-medium xl:text-lg">{question}</p>
           <Accordion.Trigger
-            className="child:duration-250 rounded-lg bg-skillbridge-orange-95 p-3 child:transition-transform child:data-[state=open]:rotate-45"
+            className="child:duration-250 w-fit rounded-lg bg-skillbridge-orange-95 p-3 child:transition-transform child:data-[state=open]:rotate-45"
             onClick={() => handleToggle('question')}
           >
-            <Plus size={28} weight="bold" />
+            <Plus width={iconSize} height={iconSize} weight="bold" />
           </Accordion.Trigger>
         </Accordion.Header>
         <AnimatePresence initial={false}>
@@ -56,16 +68,16 @@ export function FaqQuestion({
                 transition={{ duration: 0.5, ease: 'easeInOut' }}
                 className="overflow-hidden"
               >
-                <p className="pt-12 text-lg text-skillbridge-grey-30">
+                <p className="pt-12 text-lg text-skillbridge-grey-30 xl:pt-10">
                   {answer}
                 </p>
                 <Button href={answerUrl} variant="greyBlock">
                   <div className="flex items-center justify-between">
-                    <span className="text-skillbridge-grey-15">
+                    <span className="text-lg text-skillbridge-grey-15 xl:text-base">
                       {answerCta}
                     </span>
                     <div className="rounded-full bg-white p-4 text-skillbridge-grey-30">
-                      <ArrowRight size={28} />
+                      <ArrowRight width={iconSize} height={iconSize} />
                     </div>
                   </div>
                 </Button>

@@ -18,7 +18,7 @@ export function Section({
   children,
 }: SectionProps) {
   return (
-    <section className="mx-40 space-y-20">
+    <section className="mx-40 space-y-20 xl:mx-14 xl:space-y-14">
       <SectionHeader title={title} description={description} url={url} />
       <CardsWrapper variant={columnsVariant}>{children}</CardsWrapper>
     </section>

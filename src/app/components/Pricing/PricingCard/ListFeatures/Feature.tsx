@@ -28,7 +28,9 @@ export function Feature({ feature, icon, variant }: FeatureProps) {
   return (
     <div className="flex items-center gap-3 rounded-lg border border-skillbridge-white-95 p-4">
       <Icon variant={variant}>{icon}</Icon>
-      <span className="text-lg text-skillbridge-grey-30">{feature}</span>
+      <span className="text-lg text-skillbridge-grey-30 xl:text-sm">
+        {feature}
+      </span>
     </div>
   )
 }

@@ -6,7 +6,7 @@ interface VideoProps {
 
 export function Video({ coverImage }: VideoProps) {
   return (
-    <div className="relative mx-40 h-[49.375rem]">
+    <div className="relative mx-40 h-[49.375rem] xl:mx-14 xl:h-[40.5625rem]">
       <Image
         src={coverImage}
         fill={true}
