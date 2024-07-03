@@ -1,12 +1,12 @@
 import { Metadata } from 'next'
 import { Hero } from './Hero'
+import { companies } from './data/ThrustedCompanies'
+import * as ThrustedCompanies from './components/ThrustedCompanies/index'
+import { ListCompanies } from './components/ThrustedCompanies/ListCompanies'
 import { Video } from './Video'
 import { SectionsList } from './components/Section/SectionsList'
 import { PricingSection } from './components/Pricing/PricingSection'
 import { FaqSection } from './components/FAQ/FaqSection'
-import { ListCompanies } from './components/ThrustedCompanies/ListCompanies'
-import { companies } from './data/ThrustedCompanies'
-import * as ThrustedCompanies from './components/ThrustedCompanies/index'
 
 export const metadata: Metadata = {
   title: 'Skillbridge',
