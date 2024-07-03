@@ -10,11 +10,11 @@ import {
 
 export function Footer() {
   return (
-    <footer className="divide-white-95 divide-y bg-white px-40 pb-8 pt-24">
-      <div className="flex justify-between pb-12">
-        <div className="w-96 space-y-10">
+    <footer className="divide-white-95 divide-y bg-white px-40 pb-8 pt-24 xl:px-20 xl:pb-7 xl:pt-14">
+      <div className="flex justify-between pb-12 xl:pb-7">
+        <div className="w-96 space-y-10 xl:w-[19rem]">
           <Logo />
-          <ul className="space-y-5 text-lg leading-6 text-skillbridge-grey-15">
+          <ul className="space-y-5 text-lg leading-6 text-skillbridge-grey-15 xl:text-base">
             <li>
               <span className="flex gap-2">
                 <EnvelopeSimple size={24} weight="fill" />
@@ -35,12 +35,12 @@ export function Footer() {
             </li>
           </ul>
         </div>
-        <div className="grid grid-cols-footerLinks">
+        <div className="grid grid-cols-footerLinks xl:gap-6">
           <div className="flex flex-col gap-3">
-            <h4 className="text-xl font-semibold text-skillbridge-grey-15">
+            <h4 className="text-xl font-semibold text-skillbridge-grey-15 xl:text-lg">
               Home
             </h4>
-            <ul className="space-y-2 text-lg leading-6 text-skillbridge-grey-35">
+            <ul className="space-y-2 text-lg leading-6 text-skillbridge-grey-35 xl:text-base">
               <li>Benefits</li>
               <li>Our Courses</li>
               <li>Our Testimonials</li>
@@ -48,17 +48,17 @@ export function Footer() {
             </ul>
           </div>
           <div className="flex flex-col gap-3">
-            <h4 className="text-xl font-semibold text-skillbridge-grey-15">
+            <h4 className="text-xl font-semibold text-skillbridge-grey-15 xl:text-lg">
               About Us
             </h4>
-            <ul className="space-y-2 text-lg leading-6 text-skillbridge-grey-35">
+            <ul className="space-y-2 text-lg leading-6 text-skillbridge-grey-35 xl:text-base">
               <li>Company</li>
               <li>Achievements</li>
               <li>Our Goals</li>
             </ul>
           </div>
           <div className="flex flex-col gap-3">
-            <h4 className="text-xl font-semibold text-skillbridge-grey-15">
+            <h4 className="text-xl font-semibold text-skillbridge-grey-15 xl:text-lg">
               Social Profiles
             </h4>
             <ul className="flex gap-3">
@@ -81,7 +81,7 @@ export function Footer() {
           </div>
         </div>
       </div>
-      <p className="pt-12 text-center text-lg leading-6 text-skillbridge-grey-40">
+      <p className="pt-12 text-center text-lg leading-6 text-skillbridge-grey-40 xl:pt-7 xl:text-sm">
         &copy; 2024 Skillbridge. All Rights Reserved.
       </p>
     </footer>
