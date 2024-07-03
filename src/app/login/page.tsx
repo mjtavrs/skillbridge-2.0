@@ -7,7 +7,7 @@ import { LoadForm } from '../components/Form/LoadForm'
 export default function Login() {
   return (
     <>
-      <div className="mx-40 my-24 grid grid-cols-loginAndSignUpSection items-center gap-20">
+      <div className="mx-40 my-24 grid grid-cols-loginAndSignUpSection items-center gap-20 xl:mx-14">
         <TestimonialsCarousel />
         <div className="space-y-10 rounded-xl bg-white p-12">
           <Header

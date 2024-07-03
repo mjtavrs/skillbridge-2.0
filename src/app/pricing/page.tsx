@@ -21,7 +21,7 @@ export default function Pricing() {
           <div className="flex justify-center">
             <PricingOptionButtons />
           </div>
-          <div className="rounded-xl bg-white p-20">
+          <div className="rounded-xl bg-white p-20 xl:p-12">
             <CardsWrapper variant="twoColumns">
               <ListPricing />
             </CardsWrapper>

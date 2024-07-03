@@ -27,7 +27,7 @@ export function LoginForm() {
       <Form.Divider />
       <Form.GoogleAuth kindOfForm="Login" />
       <div className="flex items-center justify-center">
-        <p className="text-lg text-skillbridge-grey-15">
+        <p className="text-lg text-skillbridge-grey-15 xl:pt-1">
           Don&apos;t have an account?&nbsp;
           <a
             href="/sign-up"

@@ -13,9 +13,9 @@ export default function Contact() {
         title="Contact Us"
         description={`Welcome to Skillbridge's Contact Page, where we are here to assist you with any inquiries or support you may need. Whether you have questions about our services, need help with your account, or want to provide feedback, our team is ready to help. We believe in open communication and are dedicated to providing you with the best possible support. Please feel free to reach out to us through any of the contact methods below. We look forward to hearing from you!`}
       />
-      <div className="mx-40 mb-24">
+      <div className="mx-40 mb-24 xl:mx-14 xl:mb-20">
         <div className="grid grid-cols-contactSection divide-x-2 divide-skillbridge-white-97 rounded-xl bg-white">
-          <div className="p-20">
+          <div className="p-20 xl:p-14">
             <form className="space-y-12">
               <div className="space-y-8">
                 <div className="grid grid-cols-twoColumnWrapper gap-8">
@@ -76,7 +76,7 @@ export default function Contact() {
               </div>
             </form>
           </div>
-          <div className="flex flex-col justify-between p-20">
+          <div className="flex flex-col justify-between p-20 xl:p-14">
             <ContactCard.Container>
               <ContactCard.Info
                 icon={<EnvelopeSimple />}

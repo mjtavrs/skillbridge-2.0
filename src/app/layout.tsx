@@ -17,10 +17,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${beVietnamPro.className} min-h-dvh bg-skillbridge-white-97`}
+        className={`${beVietnamPro.className} flex min-h-dvh flex-col bg-skillbridge-white-97`}
       >
         <Header />
-        {children}
+        <div className="flex-1">{children}</div>
         <Footer />
       </body>
     </html>

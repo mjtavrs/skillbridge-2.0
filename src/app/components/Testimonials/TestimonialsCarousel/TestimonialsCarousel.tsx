@@ -20,7 +20,7 @@ export function TestimonialsCarousel() {
   }
 
   return (
-    <div className="space-y-16">
+    <div className="space-y-16 xl:space-y-14">
       <div>
         <h2 className="text-3xl font-medium text-skillbridge-grey-15">
           Students Testimonials
