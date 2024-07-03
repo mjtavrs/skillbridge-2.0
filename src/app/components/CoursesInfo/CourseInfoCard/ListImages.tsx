@@ -4,7 +4,7 @@ import { ComponentProps } from 'react'
 type ImageContainerProps = ComponentProps<'div'>
 
 function ImageContainer({ ...props }: ImageContainerProps) {
-  return <div {...props} className="relative h-96" />
+  return <div {...props} className="relative h-96 xl:h-80" />
 }
 
 interface ListImagesProps {

@@ -13,7 +13,7 @@ export default function Courses() {
         title="Online Courses on Design and Development"
         description={`Welcome to our online course page, where you can enhance your skills in design and development. Choose from our carefully curated selection of 10 courses designed to provide you with comprehensive knowledge and practical experience. Explore the courses below and find the perfect fit for your learning journey.`}
       />
-      <div className="mb-24 space-y-12">
+      <div className="mb-24 space-y-12 xl:space-y-10">
         <ListCoursesInfos />
       </div>
     </>

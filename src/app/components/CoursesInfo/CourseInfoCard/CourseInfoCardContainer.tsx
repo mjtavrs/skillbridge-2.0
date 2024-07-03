@@ -5,5 +5,5 @@ export type CourseInfoCardContainerProps = ComponentProps<'article'>
 export function CourseInfoCardContainer({
   ...props
 }: CourseInfoCardContainerProps) {
-  return <article className="rounded-xl bg-white p-12" {...props} />
+  return <article className="rounded-xl bg-white p-12 xl:p-10" {...props} />
 }
