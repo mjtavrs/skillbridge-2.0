@@ -3,7 +3,7 @@ import { LessonContainer } from './LessonContainer'
 
 export function ListLessons({ lessons }: ListLessonsProps) {
   return (
-    <div className="space-y-5">
+    <div className="space-y-5 xl:space-y-4">
       {lessons.map((lesson, index) => (
         <LessonContainer
           key={index}

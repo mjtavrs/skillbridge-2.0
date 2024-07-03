@@ -17,7 +17,7 @@ export default function CourseDetails() {
         description="Welcome to our UI/UX Design course! This comprehensive program will equip you with the knowledge and skills to create exceptional user interfaces (UI) and enhance user experiences (UX). Dive into the world of design thinking, wireframing, prototyping, and usability testing. Below is an overview of the curriculum"
       />
       <Video coverImage="/assets/webp/courses/uiUxDesign/cover.webp" />
-      <div className="mx-40 my-24">
+      <div className="mx-40 my-24 xl:mx-14 xl:my-20">
         <CardsWrapper variant="twoColumns">
           <ListClassItemCards classes={ExampleClassesList} />
         </CardsWrapper>
