@@ -4,6 +4,9 @@ import { Video } from './Video'
 import { SectionsList } from './components/Section/SectionsList'
 import { PricingSection } from './components/Pricing/PricingSection'
 import { FaqSection } from './components/FAQ/FaqSection'
+import { ListCompanies } from './components/ThrustedCompanies/ListCompanies'
+import { companies } from './data/ThrustedCompanies'
+import * as ThrustedCompanies from './components/ThrustedCompanies/index'
 
 export const metadata: Metadata = {
   title: 'Skillbridge',
@@ -13,6 +16,11 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <ThrustedCompanies.Root>
+        <ThrustedCompanies.Container>
+          <ListCompanies companies={companies} />
+        </ThrustedCompanies.Container>
+      </ThrustedCompanies.Root>
       <Video coverImage="/assets/webp/homeVideoCover.webp" />
       <div className="space-y-24 py-36 xl:py-24">
         <SectionsList />

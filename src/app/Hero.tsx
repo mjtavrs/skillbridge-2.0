@@ -3,34 +3,6 @@ import { Button } from './Button'
 import { ComponentProps } from 'react'
 import Image from 'next/image'
 
-type HeroContainerProps = ComponentProps<'div'>
-
-function HeroContainer(props: HeroContainerProps) {
-  return <div className="flex justify-center" {...props} />
-}
-
-type HeroWrapperProps = ComponentProps<'section'>
-
-function HeroWrapper(props: HeroWrapperProps) {
-  return (
-    <section
-      className="my-24 flex w-[60rem] flex-col items-center gap-5 xl:gap-4"
-      {...props}
-    />
-  )
-}
-
-function HeroButtons() {
-  return (
-    <div className="space-x-3">
-      <Button href="/courses" variant="orange">
-        Explore Courses
-      </Button>
-      <Button href="/pricing">View Pricing</Button>
-    </div>
-  )
-}
-
 export function Hero() {
   return (
     <HeroContainer>
@@ -64,5 +36,33 @@ export function Hero() {
         <HeroButtons />
       </HeroWrapper>
     </HeroContainer>
+  )
+}
+
+type HeroContainerProps = ComponentProps<'div'>
+
+function HeroContainer(props: HeroContainerProps) {
+  return <div className="flex justify-center" {...props} />
+}
+
+type HeroWrapperProps = ComponentProps<'section'>
+
+function HeroWrapper(props: HeroWrapperProps) {
+  return (
+    <section
+      className="my-24 flex w-[60rem] flex-col items-center gap-5 xl:gap-4"
+      {...props}
+    />
+  )
+}
+
+function HeroButtons() {
+  return (
+    <div className="space-x-3">
+      <Button href="/courses" variant="orange">
+        Explore Courses
+      </Button>
+      <Button href="/pricing">View Pricing</Button>
+    </div>
   )
 }
