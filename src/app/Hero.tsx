@@ -1,6 +1,7 @@
 import { Lightning } from '@phosphor-icons/react/dist/ssr'
 import { Button } from './Button'
 import { ComponentProps } from 'react'
+import Image from 'next/image'
 
 type HeroContainerProps = ComponentProps<'div'>
 
@@ -34,7 +35,14 @@ export function Hero() {
   return (
     <HeroContainer>
       <HeroWrapper>
-        <div className="rounded-xl border border-skillbridge-white-95 bg-skillbridge-white-99 px-5 py-4 xl:p-3">
+        <div className="relative rounded-xl border border-skillbridge-white-95 bg-skillbridge-white-99 px-5 py-4 xl:p-3">
+          <Image
+            src="/assets/svg/homeCtaLines.svg"
+            alt=""
+            height={43}
+            width={39}
+            className="absolute left-[-1.75rem] top-[-1.6rem]"
+          />
           <div className="flex items-center gap-3">
             <span className="rounded-md bg-skillbridge-orange-95 p-3 text-skillbridge-grey-20">
               <Lightning size={34} weight="fill" />
