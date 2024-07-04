@@ -7,10 +7,8 @@ interface WrapperProps {
 
 export function Wrapper({ image }: WrapperProps) {
   return (
-    <div className="px-10 py-7 even:border-x even:border-skillbridge-white-95">
-      <div>
-        <Image src={image} alt="" />
-      </div>
+    <div className="flex justify-center py-7 even:border-x even:border-skillbridge-white-95">
+      <Image src={image} alt="" />
     </div>
   )
 }

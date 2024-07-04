@@ -40,6 +40,7 @@ const config: Config = {
         curriculumSection: '1fr 1fr 1fr 1fr 1fr',
         loginAndSignUpSection: '1fr minmax(22rem, 41.25rem)',
         contactSection: '1fr minmax(25.625rem, 32.5rem)',
+        thrustedCompanies: '1fr 1fr 1fr 1fr 1fr 1fr 1fr ',
       },
       brightness: {
         '80': '.8',
