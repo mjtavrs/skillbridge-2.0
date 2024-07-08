@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { Hero } from './Hero'
+import * as Hero from './components/Hero/index'
 import { companies } from './data/ThrustedCompanies'
 import * as ThrustedCompanies from './components/ThrustedCompanies/index'
 import { ListCompanies } from './components/ThrustedCompanies/ListCompanies'
@@ -15,7 +15,12 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <Hero />
+      <Hero.Root>
+        <Hero.Container>
+          <Hero.Wrapper />
+          <Hero.Buttons />
+        </Hero.Container>
+      </Hero.Root>
       <ThrustedCompanies.Root>
         <ThrustedCompanies.Container>
           <ListCompanies companies={companies} />
