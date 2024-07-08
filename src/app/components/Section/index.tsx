@@ -1,5 +1,5 @@
 import { Root } from './components/Root'
-import { Container } from './components/Header/Container'
-import { Wrapper } from './components/Header/Wrapper'
+import { HeaderContainer } from './components/HeaderContainer'
+import { HeaderWrapper } from './components/HeaderWrapper'
 
-export { Root, Container, Wrapper }
+export { Root, HeaderContainer, HeaderWrapper }

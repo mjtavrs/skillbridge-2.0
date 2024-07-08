@@ -1,12 +1,12 @@
 import { Button } from '@/app/Button'
 
-interface WrapperProps {
+interface HeaderWrapperProps {
   title: string
   description: string
   url: string
 }
 
-export function Wrapper({ title, description, url }: WrapperProps) {
+export function HeaderWrapper({ title, description, url }: HeaderWrapperProps) {
   return (
     <>
       <div className="w-[73rem] space-y-3 xl:w-[58.3125rem]">

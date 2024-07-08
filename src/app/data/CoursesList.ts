@@ -27,7 +27,7 @@ export const CoursesList = [
     author: 'Emily Johnson',
     title: 'UI/UX Design',
     description: `Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques.`,
-    url: '#',
+    url: '/courses/uiUxDesign/',
     pictures: [
       '/assets/webp/courses/uiUxDesign/1.webp',
       '/assets/webp/courses/uiUxDesign/2.webp',
