@@ -1,14 +1,14 @@
 import { Button } from '@/app/Button'
 
-interface SectionHeaderProps {
+interface WrapperProps {
   title: string
   description: string
   url: string
 }
 
-export function SectionHeader({ title, description, url }: SectionHeaderProps) {
+export function Wrapper({ title, description, url }: WrapperProps) {
   return (
-    <div className="flex items-end justify-between">
+    <>
       <div className="w-[73rem] space-y-3 xl:w-[58.3125rem]">
         <h3 className="text-5xl font-semibold text-skillbridge-grey-15 xl:text-4xl">
           {title}
@@ -20,6 +20,6 @@ export function SectionHeader({ title, description, url }: SectionHeaderProps) {
       <Button href={url} variant="white">
         View All
       </Button>
-    </div>
+    </>
   )
 }
