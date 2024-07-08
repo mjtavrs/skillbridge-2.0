@@ -8,7 +8,7 @@ export const Sections: Section[] = [
     id: '1',
     title: 'Benefits',
     description: `Discover the advantages of choosing our online courses! Our programs are designed to provide you with a flexible, engaging, and high-quality learning experience. Whether you're looking to advance your career, learn a new skill, or pursue a passion, our courses offer numerous benefits to help you achieve your goals. Explore the key benefits of our online courses and see how they can transform your educational journey. Join a community of motivated learners and take the next step toward your success!`,
-    url: '#',
+    url: '/about-us',
     columnsVariant: 'threeColumns',
     children: <ListBenefits />,
   },
@@ -17,7 +17,7 @@ export const Sections: Section[] = [
     title: 'Our Courses',
     description:
       'Check our online courses, where you can enhance your skills in design and development. Choose from our carefully curated selection of courses designed to provide you with comprehensive knowledge and practical experience. Explore the courses page and find the perfect fit for your learning journey.',
-    url: '#',
+    url: '/courses',
     columnsVariant: 'twoColumns',
     children: <ListCourses />,
   },
