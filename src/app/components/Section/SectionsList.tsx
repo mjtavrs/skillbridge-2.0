@@ -7,6 +7,7 @@ export function SectionsList() {
       {Sections.map((section) => (
         <Section
           key={section.id}
+          id={section.id}
           title={section.title}
           description={section.description}
           url={section.url}

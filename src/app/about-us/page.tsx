@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { PageSection } from '../PageSection'
 import { Container } from './AboutUsSections/Container'
 import { Header } from './AboutUsSections/Header'
-import { CardsWrapper } from '../components/Section/CardsWrapper'
+import { SectionColumns } from '../components/Section/SectionColumns'
 import { ListCards } from './AboutUsSections/ListCards'
 import { Achievements, Goals } from '../data/AboutUsSections'
 
@@ -23,18 +23,18 @@ export default function AboutUs() {
             title="Achievements"
             description="Our commitment to excellence has led us to achieve significant milestones along our journey. Here are some of our notable achievements"
           />
-          <CardsWrapper variant="twoColumns">
+          <SectionColumns variant="twoColumns">
             <ListCards list={Achievements} />
-          </CardsWrapper>
+          </SectionColumns>
         </Container>
         <Container>
           <Header
             title="Our Goals"
             description="At Skillbridge, our goal is to empower individuals from all backgrounds to thrive in the world of design and development. We believe that education should be accessible and transformative, enabling learners to pursue their passions and make a meaningful impact."
           />
-          <CardsWrapper variant="twoColumns">
+          <SectionColumns variant="twoColumns">
             <ListCards list={Goals} />
-          </CardsWrapper>
+          </SectionColumns>
         </Container>
       </div>
     </>

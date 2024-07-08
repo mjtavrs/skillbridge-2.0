@@ -1,16 +1,9 @@
-import { ReactNode } from 'react'
 import { SectionHeader } from './SectionHeader'
-import { CardsWrapper } from './CardsWrapper'
-
-interface SectionProps {
-  title: string
-  description: string
-  url: string
-  columnsVariant: 'twoColumns' | 'threeColumns' | undefined
-  children: ReactNode
-}
+import { SectionColumns } from './SectionColumns'
+import { SectionProps } from '@/app/interfaces/SectionProps'
 
 export function Section({
+  id,
   title,
   description,
   url,
@@ -18,9 +11,9 @@ export function Section({
   children,
 }: SectionProps) {
   return (
-    <section className="mx-40 space-y-20 xl:mx-14 xl:space-y-14">
+    <section id={id} className="mx-40 space-y-20 xl:mx-14 xl:space-y-14">
       <SectionHeader title={title} description={description} url={url} />
-      <CardsWrapper variant={columnsVariant}>{children}</CardsWrapper>
+      <SectionColumns variant={columnsVariant}>{children}</SectionColumns>
     </section>
   )
 }

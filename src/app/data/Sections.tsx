@@ -1,9 +1,9 @@
 import { ListBenefits } from '../components/Benefits/ListBenefits'
 import { ListCourses } from '../components/Courses/ListCourses'
 import { ListTestimonials } from '../components/Testimonials/ListTestimonials'
-import { Section } from '../interfaces/SectionProps'
+import { SectionProps } from '../interfaces/SectionProps'
 
-export const Sections: Section[] = [
+export const Sections: SectionProps[] = [
   {
     id: '1',
     title: 'Benefits',

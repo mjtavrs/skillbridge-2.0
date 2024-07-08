@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 
-export interface Section {
+export interface SectionProps {
   id: string
   title: string
   description: string

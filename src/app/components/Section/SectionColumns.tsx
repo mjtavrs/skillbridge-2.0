@@ -12,9 +12,9 @@ const container = tv({
   },
 })
 
-export type CardsWrapperProps = ComponentProps<'div'> &
+export type SectionColumnsProps = ComponentProps<'div'> &
   VariantProps<typeof container>
 
-export function CardsWrapper({ variant, ...props }: CardsWrapperProps) {
+export function SectionColumns({ variant, ...props }: SectionColumnsProps) {
   return <div {...props} className={container({ variant })} />
 }

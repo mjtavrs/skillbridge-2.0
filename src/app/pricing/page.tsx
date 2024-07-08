@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import { PageSection } from '../PageSection'
 import { PricingOptionButtons } from '../components/Pricing/PricingOptionButtons'
-import { CardsWrapper } from '../components/Section/CardsWrapper'
+import { SectionColumns } from '../components/Section/SectionColumns'
 import { ListPricing } from '../components/Pricing/ListPricing'
 import { FaqSection } from '../components/FAQ/FaqSection'
 
@@ -22,9 +22,9 @@ export default function Pricing() {
             <PricingOptionButtons />
           </div>
           <div className="rounded-xl bg-white p-20 xl:p-12">
-            <CardsWrapper variant="twoColumns">
+            <SectionColumns variant="twoColumns">
               <ListPricing />
-            </CardsWrapper>
+            </SectionColumns>
           </div>
         </div>
         <div>

@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import { PageSection } from '@/app/PageSection'
 import { Video } from '@/app/Video'
-import { CardsWrapper } from '@/app/components/Section/CardsWrapper'
+import { SectionColumns } from '@/app/components/Section/SectionColumns'
 import { ListClassItemCards } from './ClassItems/ClassItemCard/ListClassItemCards'
 import { ExampleClassesList } from '@/app/data/ExampleClassesList'
 
@@ -18,9 +18,9 @@ export default function CourseDetails() {
       />
       <Video coverImage="/assets/webp/courses/uiUxDesign/cover.webp" />
       <div className="mx-40 my-24 xl:mx-14 xl:my-20">
-        <CardsWrapper variant="twoColumns">
+        <SectionColumns variant="twoColumns">
           <ListClassItemCards classes={ExampleClassesList} />
-        </CardsWrapper>
+        </SectionColumns>
       </div>
     </>
   )
