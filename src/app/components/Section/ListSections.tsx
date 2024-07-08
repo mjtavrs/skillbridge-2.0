@@ -1,7 +1,7 @@
 import { Sections } from '@/app/data/Sections'
 import { Section } from './Section'
 
-export function SectionsList() {
+export function ListSections() {
   return (
     <div className="space-y-24">
       {Sections.map((section) => (

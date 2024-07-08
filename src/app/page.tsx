@@ -4,7 +4,7 @@ import { companies } from './data/ThrustedCompanies'
 import * as ThrustedCompanies from './components/ThrustedCompanies/index'
 import { ListCompanies } from './components/ThrustedCompanies/ListCompanies'
 import { Video } from './Video'
-import { SectionsList } from './components/Section/SectionsList'
+import { ListSections } from './components/Section/ListSections'
 import { PricingSection } from './components/Pricing/PricingSection'
 import { FaqSection } from './components/FAQ/FaqSection'
 
@@ -28,7 +28,7 @@ export default function Home() {
       </ThrustedCompanies.Root>
       <Video coverImage="/assets/webp/homeVideoCover.webp" />
       <div className="space-y-24 py-36 xl:py-24">
-        <SectionsList />
+        <ListSections />
         <PricingSection />
         {/* Needs to change the size of the padding inside each question container */}
         <FaqSection />
