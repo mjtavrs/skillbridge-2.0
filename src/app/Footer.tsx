@@ -41,10 +41,18 @@ export function Footer() {
               Home
             </h4>
             <ul className="space-y-2 text-lg leading-6 text-skillbridge-grey-35 xl:text-base">
-              <li>Benefits</li>
-              <li>Our Courses</li>
-              <li>Our Testimonials</li>
-              <li>Our FAQ</li>
+              <li>
+                <a href="/about-us">Benefits</a>
+              </li>
+              <li>
+                <a href="/courses">Our Courses</a>
+              </li>
+              <li>
+                <a href="/#testimonials">Our Testimonials</a>
+              </li>
+              <li>
+                <a href="/#faq">Our FAQ</a>
+              </li>
             </ul>
           </div>
           <div className="flex flex-col gap-3">
@@ -52,9 +60,15 @@ export function Footer() {
               About Us
             </h4>
             <ul className="space-y-2 text-lg leading-6 text-skillbridge-grey-35 xl:text-base">
-              <li>Company</li>
-              <li>Achievements</li>
-              <li>Our Goals</li>
+              <li>
+                <a href="/about-us">Company</a>
+              </li>
+              <li>
+                <a href="/about-us/#achievements">Achievements</a>
+              </li>
+              <li>
+                <a href="/about-us/#goals">Our Goals</a>
+              </li>
             </ul>
           </div>
           <div className="flex flex-col gap-3">
