@@ -1,5 +1,5 @@
 import { AboutUsList } from '@/app/interfaces/AboutUsList'
-import { Card } from './Card'
+import { Card } from './components/Card'
 
 interface ListProps {
   list: AboutUsList[]

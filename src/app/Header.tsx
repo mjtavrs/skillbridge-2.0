@@ -34,20 +34,30 @@ function DiscountBanner() {
 function NavigationMenu() {
   return (
     <ul className="flex text-lg leading-6 text-skillbridge-grey-15">
-      <li className="rounded-lg bg-skillbridge-white-95 px-6 py-4">
-        <a href="/">Home</a>
+      <li>
+        <a href="/" className="rounded-lg bg-skillbridge-white-95 px-6 py-4">
+          Home
+        </a>
       </li>
-      <li className="rounded-lg px-6 py-4">
-        <a href="/courses">Courses</a>
+      <li>
+        <a href="/courses" className="rounded-lg px-6 py-4">
+          Courses
+        </a>
       </li>
-      <li className="rounded-lg px-6 py-4">
-        <a href="/about-us">About Us</a>
+      <li>
+        <a href="/about-us" className="rounded-lg px-6 py-4">
+          About Us
+        </a>
       </li>
-      <li className="rounded-lg px-6 py-4">
-        <a href="/pricing">Pricing</a>
+      <li>
+        <a href="/pricing" className="rounded-lg px-6 py-4">
+          Pricing
+        </a>
       </li>
-      <li className="rounded-lg px-6 py-4">
-        <a href="/contact">Contact</a>
+      <li>
+        <a href="/contact" className="rounded-lg px-6 py-4">
+          Contact
+        </a>
       </li>
     </ul>
   )

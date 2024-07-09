@@ -58,7 +58,7 @@ export const Goals = [
   {
     id: '3',
     icon: <UsersFour />,
-    title: 'Provide Practical Skills',
+    title: 'Promote Collaboration and Community',
     description:
       'We believe in the power of collaboration and peer learning. Our platform fosters a supportive and inclusive community where learners can connect, share insights, and grow together.',
   },

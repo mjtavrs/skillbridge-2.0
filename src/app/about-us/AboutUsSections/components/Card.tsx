@@ -9,7 +9,7 @@ interface CardProps {
 
 export function Card({ icon, title, description }: CardProps) {
   return (
-    <div className="space-y-8 bg-white p-12 xl:space-y-6 xl:p-10">
+    <div className="space-y-8 rounded-xl bg-white p-12 xl:space-y-6 xl:p-10">
       <IconWrapper icon={icon} />
       <div className="space-y-4">
         <p className="text-2xl font-medium text-skillbridge-grey-15">{title}</p>
