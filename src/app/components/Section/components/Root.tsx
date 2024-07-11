@@ -7,7 +7,7 @@ export function Root({ id, ...props }: RootProps) {
     <section
       id={id}
       {...props}
-      className="mx-40 space-y-20 xl:mx-14 xl:space-y-14"
+      className="mx-40 space-y-20 sm:mx-4 sm:space-y-10 xl:mx-14 xl:space-y-14"
     />
   )
 }

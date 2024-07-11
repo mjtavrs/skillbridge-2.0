@@ -21,7 +21,7 @@ function DiscountBanner() {
 
   return (
     <div className="cursor-pointer rounded-lg bg-skillbridge-orange-50 py-4 text-white">
-      <p className="flex items-center justify-center gap-4 leading-6 xl:text-sm">
+      <p className="flex items-center justify-center gap-4 leading-6 sm:text-sm">
         Free Courses 🌟 Sale Ends Soon, Get It Now
         <span>
           <ArrowRight size={iconSize} weight="bold" />
@@ -33,7 +33,7 @@ function DiscountBanner() {
 
 function NavigationMenu() {
   return (
-    <ul className="flex text-lg leading-6 text-skillbridge-grey-15">
+    <ul className="flex text-lg leading-6 text-skillbridge-grey-15 sm:hidden">
       <li>
         <a href="/" className="rounded-lg bg-skillbridge-white-95 px-6 py-4">
           Home
@@ -65,9 +65,9 @@ function NavigationMenu() {
 
 export function Header() {
   return (
-    <header className="mx-8 mt-5 border-b border-skillbridge-white-95 xl:mx-5">
+    <header className="mx-8 mt-5 border-b border-skillbridge-white-95 sm:mx-4 sm:mt-10 xl:mx-5">
       <DiscountBanner />
-      <div className="flex items-center justify-between px-32 py-6 xl:px-14 xl:py-4">
+      <div className="flex items-center justify-between px-32 py-6 sm:px-0 xl:px-14 xl:py-4">
         <nav className="flex items-center gap-12">
           <Logo />
           <NavigationMenu />

@@ -27,7 +27,7 @@ export default function Home() {
         </ThrustedCompanies.Container>
       </ThrustedCompanies.Root>
       <Video coverImage="/assets/webp/homeVideoCover.webp" />
-      <div className="space-y-24 py-36 xl:py-24">
+      <div className="space-y-24 py-36 sm:space-y-[3.125rem] sm:py-[3.125rem] xl:py-24">
         <ListSections />
         <PricingSection />
         {/* Needs to change the size of the padding inside each question container */}

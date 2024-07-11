@@ -47,7 +47,8 @@ const config: Config = {
       },
     },
     screens: {
-      xl: { max: '1440px' },
+      sm: { max: '1439px' },
+      xl: { min: '1440px', max: '1768px' },
     },
   },
   plugins: [

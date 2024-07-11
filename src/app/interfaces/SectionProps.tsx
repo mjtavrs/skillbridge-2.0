@@ -5,6 +5,6 @@ export interface SectionProps {
   title: string
   description: string
   url: string
-  columnsVariant?: 'threeColumns' | 'twoColumns'
+  columnsVariant?: 'threeColumns' | 'twoColumns' | 'oneColumn'
   children: ReactNode
 }

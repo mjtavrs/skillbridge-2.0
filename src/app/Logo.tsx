@@ -7,7 +7,8 @@ export function Logo() {
 
   useEffect(() => {
     const updateLogoSize = () => {
-      setLogoSize(window.innerWidth > 1440 ? 54 : 44)
+      const windowSize = window.innerWidth
+      setLogoSize(windowSize > 1767 ? 54 : windowSize < 1440 ? 40 : 44)
     }
 
     updateLogoSize()

@@ -3,7 +3,7 @@ import { Section } from './Section'
 
 export function ListSections() {
   return (
-    <div className="space-y-24">
+    <div className="space-y-24 sm:space-y-[3.125rem]">
       {Sections.map((section) => (
         <Section
           key={section.id}

@@ -6,6 +6,7 @@ const container = tv({
 
   variants: {
     variant: {
+      oneColumn: 'grid-cols-oneColumnWrapper gap-5',
       twoColumns: 'grid-cols-twoColumnWrapper gap-8',
       threeColumns: 'grid-cols-threeColumnWrapper gap-5',
     },
